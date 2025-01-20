@@ -4,53 +4,99 @@
     <link rel="stylesheet" href="styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/1c0ac0568a.js"
+      crossorigin="anonymous"
+    ></script>
     <title>My Portfolio Page</title>
   </head>
 
   <header class="header-container">
-    <p>My Portfolio Page</p>
+    <p class="nav">My Portfolio Page</p>
     <nav id="navbar">
-      <a href="#welcome-section">About</a>
-      <a href="#projects">Projects</a>
-      <a href="#link-container">Contact</a>
+      <a class="nav-link" href="#welcome-section">About</a>
+      <a class="nav-link" href="#projects">Projects</a>
+      <a class="nav-link" href="#link-container">Contact</a>
     </nav>
   </header>
 
   <body>
     <span id="welcome-section">
-      <h1>Welcome to my portfolio!</h1>
-      <p>This page links to some of my poorly designed works of art 😃</p>
+      <h1 class="welcome">Welcome to my portfolio!</h1>
+      <p class="welcome1">
+        This poorly written page links to some of my other poorly written pages
+        😃
+      </p>
     </span>
     <span id="projects">
       <figure class="project-tile">
-        <a href="https://github.com/j-kemble/FCC_landing_page" target="_blank"
-          >Landing Page</a>
-        <img width="25%" height="auto" src="https://github.com/j-kemble/FCC_landing_page/blob/main/image/Screenshot%202025-01-19%20at%2012.03.56%E2%80%AFPM.png?raw=true">
+        <a class="project-link" href="https://github.com/j-kemble/FCC_landing_page" target="_blank"
+          >Landing Page</a
+        >
+        <img
+          width="100%"
+          height="auto"
+          src="https://github.com/j-kemble/FCC_landing_page/blob/main/image/Screenshot%202025-01-19%20at%2012.03.56%E2%80%AFPM.png?raw=true"
+        />
       </figure>
       <figure class="project-tile">
-        <a href="https://github.com/j-kemble/FCC_tribute_page" target="_blank"
-          >Tribute Page</a>
-          <img width="25%" height="auto" src="https://github.com/j-kemble/FCC_tribute_page/blob/main/image/tributeimage.png?raw=true">
+        <a class="project-link" href="https://github.com/j-kemble/FCC_tribute_page" target="_blank"
+          >Tribute Page</a
+        >
+        <img
+          width="100%"
+          height="auto"
+          src="https://github.com/j-kemble/FCC_tribute_page/blob/main/image/tributeimage.png?raw=true"
+        />
       </figure>
       <figure class="project-tile">
-        <a href="https://github.com/j-kemble/FCC_survey_form" target="_blank"
-          >Survey Form</a>
-          <img width="25%" height="auto" src="https://github.com/j-kemble/FCC_survey_form/blob/main/images/surveyimage.png?raw=true">
+        <a class="project-link" href="https://github.com/j-kemble/FCC_survey_form" target="_blank"
+          >Survey Form</a
+        >
+        <img
+          width="100%"
+          height="auto"
+          src="https://github.com/j-kemble/FCC_survey_form/blob/main/images/surveyimage.png?raw=true"
+        />
       </figure>
       <figure class="project-tile">
-        <a href="https://github.com/j-kemble/FCC_tech_docs" target="_blank"
-          >Technical Documentation</a>
-          <img width="25%" height="auto" src="https://github.com/j-kemble/FCC_tech_docs/blob/main/Images/techdocss.png?raw=true">
+        <a class="project-link" href="https://github.com/j-kemble/FCC_tech_docs" target="_blank"
+          >Technical Documentation</a
+        >
+        <img
+          width="100%"
+          height="auto"
+          src="https://github.com/j-kemble/FCC_tech_docs/blob/main/Images/techdocss.png?raw=true"
+        />
       </figure>
     </span>
-    <span class="link-container"> 
-        <ul>
-            <li><i class="fa-brands fa-square-facebook"></i></li>
-            <li><i class="fa-brands fa-square-x-twitter"></i></li>
-            <li><i class="fa-brands fa-square-github"></i></li>
-        </ul>
+    <span class="link-container">
+      <p class="connect">Let's connect!</p>
+      <ul>
+        <li>
+          <button>
+            <i class="fa-brands fa-square-facebook"></i>
+          </button>
+        </li>
+        <li>
+          <button>
+            <i class="fa-brands fa-square-x-twitter"></i>
+          </button>
+        </li>
+        <li>
+          <button>
+            <i class="fa-brands fa-square-github"></i>
+          </button>
+        </li>
+      </ul>
     </span>
   </body>
 
-  <footer></footer>
+  <footer>
+    <p>
+      This is a project for the freeCodeCamp Responsive Web Design
+      Certification.
+    </p>
+    <p>Copyright <i class="fa-regular fa-copyright"></i> 2025</p>
+  </footer>
 </html>
