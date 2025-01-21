@@ -78,8 +78,8 @@ body {
     align-items: center;
     margin: 20px;
     padding: 20px;
-    background-color: #fff;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #f5f5f5;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
 }
 
 .project-link {
@@ -89,9 +89,10 @@ body {
 }
 
 .link-container {
+    height: auto;
     width: 100vw;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     box-sizing: border-box;
     justify-content: center;
     align-items: center;
@@ -103,21 +104,60 @@ i {
 }
 
 .connect {
-    font-size: 1.6rem;
-    width: 100vw;
+    font-size: 3rem;
+    font-weight: 700;
     box-sizing: border-box;
+    padding: 1em;
 }
 
 ul {
     display: flex;
-    width: 100vw;
+    justify-content: space-around;
+    width: 60vw;
+    padding-bottom: 5rem;
+}
+
+li {
+    list-style: none;
+}
+
+.social {
+    border: none;
+    background-color: #f5f5f5;
+    
 }
 
 footer {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 10px;
     background-color: #f5f5f5;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+}
+
+.fa-brands {
+    font-size: 6rem;
+}
+
+.copyright,
+.statement {
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.statement {
+    position: relative;
+    left: 25px;
+}
+
+.copyright {
+    position: relative;
+    right: 25px;
+}
+
+.fa-regular {
+    font-size: 1.25rem;
+    padding: 0;
+    margin: 0;
 }
